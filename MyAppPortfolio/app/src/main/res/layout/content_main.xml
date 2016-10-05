@@ -9,10 +9,105 @@
     tools:context="roman.com.myappportfolio.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/double_standard_margin"
+        android:layout_marginStart="@dimen/double_standard_margin"
+        android:orientation="vertical"
+        >
+
+        <!--title intro text-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_margin"
+            android:gravity="center"
+            android:text="@string/intro_text"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="@dimen/title_text_size"
+            />
+
+        <!--app buttons-->
+        <!--better way to make all the buttons the same size?-->
+
+        <Button
+            android:id="@+id/button_app1"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/double_standard_margin"
+            android:layout_marginStart="@dimen/double_standard_margin"
+            android:layout_marginTop="@dimen/single_standard_margin"
+            android:text="@string/app1"
+            />
+
+        <Button
+            android:id="@+id/button_app2"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/double_standard_margin"
+            android:layout_marginStart="@dimen/double_standard_margin"
+            android:layout_marginTop="@dimen/single_standard_margin"
+            android:text="@string/app2"
+            />
+
+        <Button
+            android:id="@+id/button_app3"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/double_standard_margin"
+            android:layout_marginStart="@dimen/double_standard_margin"
+            android:layout_marginTop="@dimen/single_standard_margin"
+            android:text="@string/app3"
+            />
+
+
+        <Button
+            android:id="@+id/button_app4"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/double_standard_margin"
+            android:layout_marginStart="@dimen/double_standard_margin"
+            android:layout_marginTop="@dimen/single_standard_margin"
+            android:text="@string/app4"
+            />
+
+        <Button
+            android:id="@+id/button_app5"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/double_standard_margin"
+            android:layout_marginStart="@dimen/double_standard_margin"
+            android:layout_marginTop="@dimen/single_standard_margin"
+            android:text="@string/app5"
+            />
+
+        <Button
+            android:id="@+id/button_app6"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/double_standard_margin"
+            android:layout_marginStart="@dimen/double_standard_margin"
+            android:layout_marginTop="@dimen/single_standard_margin"
+            android:text="@string/app6"
+            />
+
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
